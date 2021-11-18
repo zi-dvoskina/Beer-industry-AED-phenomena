@@ -3,8 +3,6 @@ Beer industry AED phenomena
 Project timeline: Oct 2020 - Dec 2020
 
 Project team:
-
-Zinaida Dvoskina (myself)
 - Zinaida Dvoskina (myself)
 - Kirill Ilin
 
