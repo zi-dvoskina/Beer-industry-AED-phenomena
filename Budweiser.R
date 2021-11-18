@@ -1,19 +1,3 @@
----
-title: 'Appendix'
-output: 
-  pdf_document: default
-html_document: default
-fontsize: 10pt
----
-# Data Sources 
-# Kenton, W. (2020, August 29). What Is Advertising Elasticity of Demand (AED)? Investopedia. 
-# https://www.investopedia.com/terms/a/advertising-elasticity-of-demand.asp. 
-# Anheuser-Busch InBev SA/NV. BUD Stock Rating and Data | Anheuser-Busch InBev/NV - GuruFocus.com. 
-# https://www.gurufocus.com/stock/BUD/summary. 
-# Conway, P., & 21, F. (2020, February 21). Leading beer suppliers market share U.S. 2014-2019. Retrieved December 17, 2020, from 
-# https://www.statista.com/statistics/972647/leading-beer-suppliers-market-share-us
-# Lnear regression models for AB InBev
-```{r eval=TRUE}
 library(readxl)
 quarterly <- read_excel("abinbev_quarterly.xlsx")
 yearly <- read_excel("abinbev_yearly.xlsx")
@@ -103,4 +87,3 @@ model21 <- lm(log(share)~log(advertising), data=market_share)
 summary(model21)
 model22 <- lm(log(share)~log(advertising)+year, data=market_share)
 summary(model22)
-```
