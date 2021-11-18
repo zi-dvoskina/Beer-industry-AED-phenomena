@@ -13,6 +13,6 @@ Looked at Budweiser's sports sponsorship cases (FIFA World Cup, SuperBowl) which
 
 __________________________________
 
-In this repository you can find our data, code, project report and a poster with our major findings.
+In this repository you can find our data, code, and the project report.
 
 
